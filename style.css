@@ -267,8 +267,9 @@ text-transform: uppercase;
         /* filter: invert(1); */
     }
     #logo{
-        overflow: hidden;
-        height: 50px;
+        /* overflow: hidden; */
+        height: 100px;
+        background: red;
     }
     #right-nav{
        margin-top: 2vh;
@@ -276,5 +277,7 @@ text-transform: uppercase;
     }
     #right-nav-2>img{
        height: 35px;
+       margin-top: -1vh;
+       background: red;
     }
 }
