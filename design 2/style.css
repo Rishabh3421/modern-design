@@ -8,7 +8,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    background: beige;    
+    background: rgb(17, 17, 17);    
 }
 ::selection{
     background: #fff;
@@ -20,8 +20,8 @@ html,body{
 #page1{
     height: 100vh;
     width: 100%;
-    /* background: #151515; */
-    background: red;
+    background: #151515;
+  
 }
 #loader{
     height: 100%;

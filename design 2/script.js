@@ -1,4 +1,5 @@
-var tl = gsap.timeline()
+function loaderAnimation(){
+    var tl = gsap.timeline()
 
 tl.from(".line h1",{
     y:150,
@@ -37,3 +38,6 @@ tl.from("#page1",{
 tl.to("#loader",{
     display:none,
 })
+}
+
+loaderAnimation();

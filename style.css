@@ -265,11 +265,13 @@ text-transform: uppercase;
         line-height: 10px;
         font-size: 10px;
         /* filter: invert(1); */
+      
+
     }
     #logo{
-        /* overflow: hidden; */
-        height: 100px;
-        background: red;
+        overflow: hidden;
+        height: 40px;
+        /* background: red; */
     }
     #right-nav{
        margin-top: 2vh;
@@ -277,7 +279,7 @@ text-transform: uppercase;
     }
     #right-nav-2>img{
        height: 35px;
-       margin-top: -1vh;
-       background: red;
+       margin-top: -8vh;
+       /* background: red; */
     }
 }
